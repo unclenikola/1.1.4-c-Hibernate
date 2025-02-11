@@ -6,3 +6,40 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Стандартная папка сборки Maven
+target/
+
+# Локальная конфигурация IntelliJ IDEA
+.idea/
+*.iml
+
+# Артефакты сборки
+**/*.jar
+**/*.war
+**/*.ear
+
+# Лог-файлы
+*.log
+logs/
+
+# Отчётность тестов
+surefire-reports/
+coverage/
+jacoco.exec
+
+# Кэшированные файлы
+.mvn/
+.gradle/
+
+# Конфигурация окружения
+.env
+application.properties
+
+# Секретные ключи
+secrets.json
+credentials.yml
+
+# Файлы ОС
+.DS_Store
+Thumbs.db

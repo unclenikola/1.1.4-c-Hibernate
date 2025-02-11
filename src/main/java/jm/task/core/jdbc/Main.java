@@ -25,10 +25,10 @@ public class Main {
 
 
 //        Очистка таблицы User(ов)
-//        service.cleanUsersTable();
+        service.cleanUsersTable();
 
 //        удалили таблицу
-//        service.dropUsersTable();
+        service.dropUsersTable();
 
 //
     }
