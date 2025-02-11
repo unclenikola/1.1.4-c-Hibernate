@@ -1,10 +1,17 @@
 package jm.task.core.jdbc.dao;
 
+import jdk.jshell.execution.Util;
 import jm.task.core.jdbc.model.User;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
+import static jm.task.core.jdbc.util.Util.getConnection;
+
 public class UserDaoHibernateImpl implements UserDao {
+
     public UserDaoHibernateImpl() {
 
     }
